@@ -184,9 +184,9 @@ Rag_AI_Assistant/
 ⚙️ Setup Instructions:
 
 pip install -r requirements.txt
+
 ollama pull tinyllama
+
 uvicorn app.main:app --reload
 
-PDF Parsing
 
-RAG Architecture
