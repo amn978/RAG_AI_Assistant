@@ -86,20 +86,35 @@ Returns answer + sources
 ✅ No external knowledge injection
 
 🧱 System Architecture:
+
 User Query
+
    ↓
+   
 FastAPI API
+
    ↓
+   
 FAISS Vector Search
+
    ↓
+   
 Relevant Docs Retrieved
+
    ↓
+   
 Context Builder
+
    ↓
+   
 RAG Prompt
+
    ↓
+   
 Local LLM (TinyLlama via Ollama)
+
    ↓
+   
 Answer + Sources
 
 🛠️ Tech Stack:
