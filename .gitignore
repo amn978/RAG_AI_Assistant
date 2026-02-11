@@ -1,0 +1,9 @@
+models/
+*.gguf
+data/vector_store/
+data/vectorstore/
+__pycache__/
+*.pyc
+.env
+.venv
+.vscode
